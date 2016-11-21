@@ -1,0 +1,22 @@
+alter table product add constraint  FK4V6XGCN5A5JUK9YUWQDA6FEML 
+foreign key(subcategoryid) references subcategory(subcategoryid) on delete cascade
+
+
+alter table product drop constraint  FK4V6XGCN5A5JUK9YUWQDA6FEML
+
+
+SELECT * FROM SUBCATEGORY
+
+
+alter table subcategory add constraint FK8XEPS8GQJ37O8NHICPBGL9LSM 
+foreign key(categoryid) references category(categoryid) on delete cascade
+
+
+alter table subcategory drop constraint FK8XEPS8GQJ37O8NHICPBGL9LSM
+
+alter table BILLINGADDRESS  add constraint FK8Q3SCYVHTDWL4NYIK7S3M9RU0
+ foreign key(userdetail_userid) references userdetail(userid) on delete cascade
+
+alter table SHIPPINGADDRESS  add constraint FKRH09I7SQP1QTH9TP8OUE735D8
+ foreign key(userdetail_userid) references userdetail(userid) on delete cascade
+  
