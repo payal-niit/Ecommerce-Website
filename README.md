@@ -1,5 +1,5 @@
 # Ecommerce-Website
-Project three
+
 
 This is a Ecommerce Portal which allows users to buy products, add products to cart, wishlist and many other options. 
 It also has implementation of Authentication and Authorization.
